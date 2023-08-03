@@ -17,6 +17,8 @@ module.exports = {
         navigator: ["Nunito", "sans-serif"],
         oswald: ["Oswald", "sans-serif"],
         smg: ["Sorts Mill Goudy", "sans-serif"],
+        garamond: ["Garamond", "sans-serif"],
+        lato: ["Lato", "sans-serif"]
       },
     },
     screens: {
