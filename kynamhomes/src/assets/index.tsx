@@ -5,6 +5,8 @@ import model1 from './model1.png';
 import model2 from './model2.png';
 import model3 from './model3.png';
 import model4 from './model4.png';
+import model5 from './model5.png';
+import model6 from './model6.png';
 import bathroom from './bathroom.svg';
 import bedroom from './bedroom.svg';
 import sqft from './sqft.svg';
@@ -15,7 +17,21 @@ import designer1 from './designer1.jpg';
 import designer2 from './designer2.jpg';
 import leftarrow from './leftarrow.svg';
 import rightarrow from './rightarrow.svg';
+import professional1 from './professional1.png';
+import professional1_1 from './professional1_1.jpg';
+import newsletter from './newsletter.jpg';
+import cofounder1 from './cofounder1.png';
+import cofounder2 from './cofounder2.png';
+import salesperson from './salesperson.png';
+import stats_home from './stats_home.png';
 export {
+    stats_home,
+    cofounder1,
+    cofounder2,
+    salesperson,
+    newsletter,
+    professional1_1,
+    professional1,
     leftarrow,
     rightarrow,
     logo,
@@ -25,6 +41,8 @@ export {
     model2,
     model3,
     model4,
+    model5,
+    model6,
     bathroom,
     bedroom,
     sqft,

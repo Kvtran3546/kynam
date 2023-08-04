@@ -14,7 +14,7 @@ function App() {
       <div className='relative z-10 w-full'>
         <Intro body_ref={Body_ref} />
       </div>
-      <div ref={Body_ref} className='relative w-full lg:px-[100px] md:px-[20px]'>
+      <div ref={Body_ref} className='relative w-full'>
         <Body/>
       </div>
     </div>

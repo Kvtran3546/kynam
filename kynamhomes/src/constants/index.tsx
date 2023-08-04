@@ -1,4 +1,4 @@
-import {model1, model2, model3, model4} from '../assets'
+import {model1, model2, model3, model4, model5, model6, cofounder1, cofounder2, salesperson} from '../assets'
 
 export const navLinks = [
     {
@@ -60,4 +60,40 @@ export const models = [
       bathrooms: 1,
       sqFootage: 800,
     },
+    {
+        img: model5,
+        buildingType: 'House',
+        price: 390000,
+        address: '124 Sampson St',
+        bedrooms: 4,
+        bathrooms: 3,
+        sqFootage: 1300,
+      },
+    {
+      img: model6,
+      buildingType: 'House',
+      price: 240000,
+      address: '10 RoadWood Lane',
+      bedrooms: 3,
+      bathrooms: 3,
+      sqFootage: 1000,
+    },
   ];
+
+export const people = [
+    {
+        img: cofounder1,
+        name: 'Samuel Kim',
+        title: 'Cofounder',
+    },
+    {
+        img: cofounder2,
+        name: 'Jack Wilder',
+        title: 'Cofounder',
+    },
+    {
+        img: salesperson,
+        name: "Jennifer Smith",
+        title: "Broker"
+    }
+]

@@ -15,7 +15,7 @@ const Propertycard: React.FC<propertyCardProps> = ({img, buildingType, price, ad
         return price.toLocaleString();
     };
   return (
-    <div className='lg:w-[300px] flex flex-col justify-start items-center md:mx-1 rounded-lg'>
+    <div className='lg:w-[320px] md:w-[300px] flex flex-col justify-start items-center md:mx-1 rounded-lg'>
         <div
             style={{
             width: '100%',

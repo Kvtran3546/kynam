@@ -1,9 +1,9 @@
 const styles = {
     boxWidth: "xl:max-w-[1280px] w-full",
   
-    heading1: "leading-[56px] tracking-tight text-center",
-    heading2: "leading-[48px] tracking-tight",
-    paragraph: "leading-[24px] tracking-tight",
+    heading1: "leading-[40px] tracking-normal",
+    heading2: "leading-[48px] tracking-normal",
+    paragraph: "leading-[24px] tracking-normal",
     portrait: "w-[170px] h-[170px] top-[139px] left-[432px]",
 
   
