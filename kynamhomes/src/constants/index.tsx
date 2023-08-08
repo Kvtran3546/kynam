@@ -97,3 +97,60 @@ export const people = [
         title: "Broker"
     }
 ]
+
+export const footerLinks = [
+    {
+      title: "Menu",
+      links: [
+        {
+          name: "Home",
+          link: "https://www.hoobank.com/content/",
+        },
+        {
+          name: "Properties",
+          link: "https://www.hoobank.com/how-it-works/",
+        },
+        {
+          name: "About Us",
+          link: "https://www.hoobank.com/create/",
+        },
+        {
+          name: "Services",
+          link: "https://www.hoobank.com/explore/",
+        },
+        {
+          name: "Faq",
+          link: "https://www.hoobank.com/terms-and-services/",
+        },
+        {
+            name: "Blog",
+            link: "https://www.hoobank.com/terms-and-services/",
+        },
+        {
+            name: "Contact Us",
+            link: "https://www.hoobank.com/terms-and-services/",
+        }
+      ],
+    },
+    {
+      title: "Social",
+      links: [
+        {
+          name: "Facebook",
+          link: "https://www.hoobank.com/help-center/",
+        },
+        {
+          name: "Twitter",
+          link: "https://www.hoobank.com/partners/",
+        },
+        {
+          name: "Instagram",
+          link: "https://www.hoobank.com/suggestions/",
+        },
+        {
+          name: "LinkedIn",
+          link: "https://www.hoobank.com/blog/",
+        }
+      ],
+    }
+  ];

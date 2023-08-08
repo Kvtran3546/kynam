@@ -21,8 +21,8 @@ import {home} from '../assets';
         }
       };
   return (
-    <div className='w-full lg:h-[960px] md:h-[730px] flex flex-col justify-center items-center'>
-        <img src={home} alt='home' className='absolute lg:-top-[140px] md:top-[50px] -z-10 w-full lg:scale-[1] md:scale-[1.5]'/>
+    <div className='relative w-full lg:h-[900px] md:h-[730px] flex flex-col justify-center items-center'>
+        <img src={home} alt='home' className='absolute lg:top-0 md:top-0 -z-10 w-full h-full object-cover'/>
         <h1 className={`${styles.heading1} lg:text-[60px] md:text-[42px] text-[#FFF] font-normal`}>
             A PLACE TO CALL HOME
         </h1>

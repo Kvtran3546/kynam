@@ -24,7 +24,9 @@ import cofounder1 from './cofounder1.png';
 import cofounder2 from './cofounder2.png';
 import salesperson from './salesperson.png';
 import stats_home from './stats_home.png';
+import home_logo from './home_logo.png';
 export {
+    home_logo,
     stats_home,
     cofounder1,
     cofounder2,

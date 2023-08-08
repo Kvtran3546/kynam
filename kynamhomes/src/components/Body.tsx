@@ -7,7 +7,9 @@ import Newsletter from './Newsletter';
 import Team from './Team';
 import All_properties from './All_properties';
 import Stats from './Stats';
-
+import Testimonials from './Testimonials';
+import Footer from './Footer';
+import { home_logo, logo,  } from '../assets';
 const Body = () => {
   return (
     <div className='w-full flex flex-col justify-center items-center'>
@@ -36,9 +38,18 @@ const Body = () => {
         <div className='md:w-[1000px] lg:w-[1500px] flex flex-col justify-center items-center mt-[100px]'>
             <All_properties />
         </div>
-        {/* <div className='md:w-[1000px] lg:w-[1500px] flex flex-col justify-center items-center mt-[100px]'>
+        <div className='w-full flex flex-col justify-center items-center mt-[100px]'>
             <Stats />
-        </div> */}
+        </div>
+        <div className='w-full flex flex-col justify-center items-center mt-[100px]'>
+            <Testimonials />
+        </div>
+        <img src={home_logo} alt='home' className='h-[404px] object-cover w-full py-[50px]'/>
+        <div className='w-full flex flex-row justify-center items-center mt-[20px]'>
+            <div className='border-b-[2px] border-gray-400 w-full flex justify-center items-center'>
+                <img src={logo} alt='logo' className='absolute w-[70px] h-[21px] bg-[#f0f0f5] px-[22px]'/>
+            </div>
+        </div>
     </div>
   );
 };
