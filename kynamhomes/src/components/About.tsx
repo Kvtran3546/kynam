@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from '../styles'
 import {about1, about1_1} from '../assets'
 const About = () => {

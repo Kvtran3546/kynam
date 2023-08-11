@@ -15,7 +15,7 @@ const Propertycard: React.FC<propertyCardProps> = ({img, buildingType, price, ad
         return price.toLocaleString();
     };
   return (
-    <div className='lg:w-[320px] md:w-[300px] flex flex-col justify-start items-center md:mx-1 rounded-lg'>
+    <div className='lg:w-[23%] md:w-[23%] w-[23%] flex flex-col justify-start items-center md:mx-1 rounded-lg'>
         <div
             style={{
             width: '100%',
@@ -38,9 +38,9 @@ const Propertycard: React.FC<propertyCardProps> = ({img, buildingType, price, ad
             borderBottomRightRadius: '4px',
             }}
             className='w-[100%] flex flex-col border-[2px] border-gray-300'>
-            <div className='w-[100%] flex lg:justify-start lg:flex-row md:flex-col border-2'>
-                <p className={`${styles.paragraph} flex flex-row justify-start items-center pl-3 font-normal text-[#69707B] h-[40px] border-b-[2px] lg:border-r-[2px] border-gray-300 lg:w-[50%]`}><img src={bedroom} className='mr-2 w-[22px] h-[22px]'/>{bedrooms} bedrooms</p>
-                <p className={`${styles.paragraph} flex flex-row justify-start items-center pl-3 font-normal text-[#69707B] h-[40px] border-b-[2px] border-gray-300 lg:w-[50%]`}><img src={bathroom} className='mr-2 w-[22px] h-[22px]'/>{bathrooms} bathrooms</p>
+            <div className='w-[100%] flex flex-col border-2'>
+                <p className={`${styles.paragraph} flex flex-row justify-start items-center pl-3 font-normal text-[#69707B] h-[40px] border-b-[2px] border-gray-300`}><img src={bedroom} className='mr-2 w-[22px] h-[22px]'/>{bedrooms} bedrooms</p>
+                <p className={`${styles.paragraph} flex flex-row justify-start items-center pl-3 font-normal text-[#69707B] h-[40px] border-b-[2px] border-gray-300`}><img src={bathroom} className='mr-2 w-[22px] h-[22px]'/>{bathrooms} bathrooms</p>
             </div>
             <p className={`${styles.paragraph} flex justify-start items-center pl-3 font-normal text-[#69707B] h-[40px]`}><img src={sqft} className='mr-2 w-[22px] h-[22px]'/>{formatPriceWithCommas(sqFootage)} sqft</p>
         </div>

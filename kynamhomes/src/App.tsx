@@ -1,7 +1,6 @@
-import { useState, useRef } from 'react'
+import { useRef } from 'react'
 import './App.css'
 import {Navbar, Body, Intro, Footer} from './components'
-import {home} from './assets'
 
 
 function App() {
@@ -11,7 +10,7 @@ function App() {
       <div className='relative z-20 bg-[#FFFFFF] w-full'>
         <Navbar/>
       </div>
-      <div className='relative z-10 w-full'>
+      <div className='relative z-10 w-full h-[100vh]'>
         <Intro body_ref={Body_ref} />
       </div>
       <div ref={Body_ref} className='relative w-full'>

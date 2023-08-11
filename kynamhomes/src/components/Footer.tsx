@@ -1,4 +1,3 @@
-import React from 'react'
 import { footerLinks } from '../constants'
 import styles from '../styles'
 import {logo} from '../assets'
@@ -10,10 +9,10 @@ const Footer = () => {
             <h1 className={`${styles.heading1} text-[20px] font-poppins`}>KyNamHomes</h1>
             <p className={`${styles.paragraph} text-gray-200 text-[14px] font-lato tracking-wide mt-2`}>What sets KyNamHomes apart is our youthful energy and hunger for excellence. As a dynamic construction company, we embrace innovation and constantly seek new ways to enhance our craft.</p>
         </div>
-        {footerLinks.map((link, index) => (
+        {footerLinks.map((link) => (
             <div className='flex flex-col items-start w-[10%] mr-[20px]'>
                 <h2 className={`${styles.heading2} font-oswald text-[13px] leading-[25px] uppercase`}>{link.title}</h2>
-                {link.links.map((item, index) => (
+                {link.links.map((item) => (
                     <a href={item.link} className='text-gray-200 text-[14px] leading-[25px] font-lato mt-[4px] '>{item.name}</a>
                 ))}
             </div>

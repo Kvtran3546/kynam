@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import {navLinks} from '../constants'
 import styles from '../styles'
 import {logo} from '../assets'
@@ -11,7 +11,7 @@ const Navbar:React.FC = () => {
             <p className='font-poppins flex items-center text-black'>KyNamHomes</p>
         </div>
         <ul className="list-none sm:flex hidden justify-center items-center">
-            {navLinks.map((nav, index) => (
+            {navLinks.map((nav) => (
             <li className={`${styles.paragraph} mx-5 text-font hover:text-gray-300 font-semibold text-[18px] transition-all`}>
                 <a href={`#${nav.id}`} className='underline-none'>{nav.title}</a>
             </li>

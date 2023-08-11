@@ -1,4 +1,4 @@
-import React, {useRef, useState} from 'react'
+import React, {useState} from 'react'
 import styles from '../styles'
 import { chevron_down } from '../assets';
 import {home} from '../assets';
@@ -21,7 +21,7 @@ import {home} from '../assets';
         }
       };
   return (
-    <div className='relative w-full lg:h-[900px] md:h-[730px] flex flex-col justify-center items-center'>
+    <div className='relative w-full lg:h-[93%] md:h-[93%] h-[93%] flex flex-col justify-center items-center'>
         <img src={home} alt='home' className='absolute lg:top-0 md:top-0 -z-10 w-full h-full object-cover'/>
         <h1 className={`${styles.heading1} lg:text-[60px] md:text-[42px] text-[#FFF] font-normal`}>
             A PLACE TO CALL HOME

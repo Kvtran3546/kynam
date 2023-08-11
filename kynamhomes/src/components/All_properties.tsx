@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from '../styles';
 import {models} from '../constants'
 import DealCard from './DealCard';
@@ -14,7 +13,7 @@ const All_properties = () => {
         <button className="text-black text-[20px] font-oswald hover:text-[#3AB984] hover:text-[22px] transition-all duration-500">View All</button>
       </div>
       <div className='flex flex-wrap w-full justify-center items-center'>
-        {listedModels.map((model, index) =>(
+        {listedModels.map((model) =>(
           <DealCard img={model.img} property_type={model.buildingType} price={model.price} address={model.address} bedrooms={model.bedrooms} bathrooms={model.bathrooms} sqfoot={model.sqFootage}/>
         ))}
       </div>

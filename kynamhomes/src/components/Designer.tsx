@@ -1,4 +1,3 @@
-import React, {useState} from 'react'
 import { designer1, designer2, leftarrow, rightarrow } from '../assets';
 import styles from '../styles';
 import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';

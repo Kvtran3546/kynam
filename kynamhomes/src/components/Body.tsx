@@ -1,4 +1,3 @@
-import React from 'react';
 import Featured from './Featured';
 import About from './About';
 import Designer from './Designer';
@@ -8,16 +7,15 @@ import Team from './Team';
 import All_properties from './All_properties';
 import Stats from './Stats';
 import Testimonials from './Testimonials';
-import Footer from './Footer';
 import { home_logo, logo,  } from '../assets';
 const Body = () => {
   return (
     <div className='w-full flex flex-col justify-center items-center'>
-        <div className='lg:w-[1400px] md:w-[1000px] flex flex-col justify-center items-center lg:px-[100px] md:px-[20px]'>
+        <div className='lg:w-[95%] md:w-[95%] w-[95%] flex flex-col justify-center items-center lg:px-[100px] md:px-[20px]'>
             <Featured />
         </div>
-        <div className='w-[1000px] rounded-full border-b-[4px] border-gray-300 my-10 lg:px-[100px] md:px-[20px]'></div>
-        <div className='w-[1000px] flex flex-col justify-center items-center '>
+        <div className='lg:w-[95%] md:w-[95%] w-[95%] rounded-full border-b-[4px] border-gray-300 my-10 lg:px-[100px] md:px-[20px]'></div>
+        <div className='lg:w-[1000px] md:w-[95%] w-[95%] flex flex-col justify-center items-center '>
             <About />
         </div>
         <div className='w-[1000px] rounded-full border-b-[4px] border-gray-300 my-10 lg:px-[100px] md:px-[20px]'></div>
@@ -25,23 +23,23 @@ const Body = () => {
             <Designer />
         </div>
         <div className='w-[1000px] rounded-full border-b-[4px] border-gray-300 my-10 lg:px-[100px] md:px-[20px]'></div>
-        <div className='w-[1000px] flex flex-col justify-center items-center'>
+        <div className='lg:w-[1000px] md:w-[95%] w-[95%] flex flex-col justify-center items-center'>
             <Professional />
         </div>
         <div className='w-[1000px] rounded-full border-b-[4px] border-gray-300 my-10 lg:px-[100px] md:px-[20px]'></div>
-        <div className='w-full flex flex-col justify-center items-center'>
+        <div className='relative lg:w-[100%] md:w-[100%] w-[100%] flex flex-col justify-center items-center'>
             <Newsletter />
         </div>
-        <div className='w-full flex flex-col justify-center items-center mt-3'>
+        <div className='lg:w-[1000px] md:w-[95%] w-[95%] flex flex-col justify-center items-center mt-3'>
             <Team />
         </div>
-        <div className='md:w-[1000px] lg:w-[1500px] flex flex-col justify-center items-center mt-[100px]'>
+        <div className='lg:w-[90%] md:w-[95%] w-[95%] flex flex-col justify-center items-center mt-[100px]'>
             <All_properties />
         </div>
-        <div className='w-full flex flex-col justify-center items-center mt-[100px]'>
+        <div className='lg:w-[100%] md:w-[100%] w-[100%] flex flex-col justify-center items-center mt-[100px]'>
             <Stats />
         </div>
-        <div className='w-full flex flex-col justify-center items-center mt-[100px]'>
+        <div className='lg:w-[100%] md:w-[100%] w-[100%] flex flex-col justify-center items-center mt-[100px]'>
             <Testimonials />
         </div>
         <img src={home_logo} alt='home' className='h-[404px] object-cover w-full py-[50px]'/>

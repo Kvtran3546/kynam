@@ -1,4 +1,3 @@
-import React from 'react'
 import { stats_home } from '../assets'
 import styles from '../styles'
 const Stats = () => {
